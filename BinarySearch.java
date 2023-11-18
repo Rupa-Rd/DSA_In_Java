@@ -13,8 +13,8 @@ public class BinarySearch {
         // System.out.print("Enter the element to search: ");
         // int target = in.nextInt();
         int[] arr = { 23, 25, 34, 55, 67, 77, 89 };
-        int target = 34;
-        System.out.println("The element " + target + " is found at the index " + search(arr, target));
+        int target = 45;
+        System.out.println("The element " + target + " is found at the index " + arr[search(arr, target)]);
     }
 
     static int search(int[] arr, int target) {
